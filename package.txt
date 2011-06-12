@@ -1,0 +1,144 @@
+Ontwerpbeschrijving PuzzleSolver
+================================
+
+puzzlesolver.gui
+----------------
+Direction:
+volledig gespecificeerd
+volledig geïmplementeerd
+geen JUnit test
+alles werkt
+
+Image:
+volledig gespecificeerd
+volledig geïmplementeerd
+geen JUnit test
+alles werkt
+
+MainFrame:
+volledig gespecificeerd
+volledig geïmplementeerd
+geen JUnit test
+alles werkt
+
+Move:
+volledig gespecificeerd
+volledig geïmplementeerd
+geen JUnit test
+alles werkt
+
+
+puzzlesolver.model
+------------------
+BagOfPieces:
+volledig gespecificeerd
+volledig geïmplementeerd
+JUnit test is volledig
+alles werkt
+
+Box:
+volledig gespecificeerd
+volledig geïmplementeerd
+JUnit test is volledig
+alles werkt
+
+Cell:
+volledig gespecificeerd
+volledig geïmplementeerd
+JUnit test is volledig
+alles werkt
+
+CellState:
+volledig gespecificeerd
+volledig geïmplementeerd
+geen JUnit test
+alles werkt
+
+Orientation:
+volledig gespecificeerd
+volledig geïmplementeerd
+JUnit test is volledig
+alles werkt
+
+Piece:
+volledig gespecificeerd
+gedeeltelijk geïmplementeerd
+JUnit test is volledig
+alles werkt
+
+Placement:
+volledig gespecificeerd
+volledig geïmplementeerd
+JUnit test is volledig
+alles werkt
+
+Position:
+volledig gespecificeerd
+volledig geïmplementeerd
+JUnit test is volledig
+alles werkt
+
+Puzzle:
+volledig gespecificeerd
+volledig geïmplementeerd
+JUnit test is volledig
+alles werkt
+
+puzzlesolver.solvers
+--------------------
+BacktrackSolver:
+volledig gespecificeerd
+volledig geïmplementeerd
+JUnit test is zeer basaal
+alles werkt
+
+PrintBox:
+volledig gespecificeerd
+volledig geïmplementeerd
+geen JUnit test
+alles werkt
+
+Solver:
+volledig gespecificeerd
+volledig geïmplementeerd
+geen JUnit test
+alles werkt
+
+SolverListener:
+volledig gespecificeerd
+volledig geïmplementeerd
+geen JUnit test
+alles werkt
+
+
+puzzlesolver.textio
+-------------------
+ColorConverter:
+volledig gespecificeerd
+volledig geïmplementeerd
+JUnit test is volledig
+alles werkt
+
+ReadBagOfPiecesFromFile:
+volledig gespecificeerd
+volledig geïmplementeerd
+JUnit test test alleen op exceptions
+alles werkt
+
+ReadBoxFromFile:
+volledig gespecificeerd
+volledig geïmplementeerd
+JUnit test test alleen op exceptions
+alles werkt
+
+ReadPuzzleFromFile:
+volledig gespecificeerd
+volledig geïmplementeerd
+JUnit test test alleen op exceptions
+alles werkt
+
+WritePuzzleToFile:
+volledig gespecificeerd
+volledig geïmplementeerd
+JUnit test ontbreekt
+alles werkt, maar soms worden onnodig extra lege regels ingevoegd (eventueel eenvoudig herstelbaar met enkele if-statements)
